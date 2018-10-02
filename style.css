@@ -31,6 +31,7 @@ a
 	background-color: #FFF;
 	float: right;
 	text-align: center;
+	text-decoration: none;
 
 }
 
@@ -47,7 +48,8 @@ li
 	padding: 0px;
 	padding-top: 10px;
 	text-decoration: none;
-	margin: 4px;
+	margin-top: 10px;
+	margin-right: 20px;
 }
 
 #bar li:hover
@@ -58,13 +60,15 @@ li
 
 #connexion
 {
-	color: #ffffff;
 	
 
 }
 .connexion
 {
 	color:#FFFFFF;
+	font-weight: bold;
+
+
 }
 
 .link
@@ -80,10 +84,24 @@ li
 {
 	margin-top: 10px;
 	margin-right: 20px;
-	padding: 4px 4px;
+	padding: 9px 12px;
 	border-radius: 3px;
 	background: #4887ef;
 	color: #FFFFFF;
+}
+
+.square
+{
+	width: 34px;
+	height: 34px;
+	background-image: url(https://charles-mahaco.hotglue.me/?variation.head.15384884843);
+	background-position: 3px 6px;
+	background-repeat: no-repeat;
+}
+
+.square:hover
+{
+	opacity: 0.5;
 }
 
 .Google #logo
@@ -154,7 +172,7 @@ input[type="text"]
 	height: 45px;
 	border-width: 0.1px 0px;
 	border-style: solid;
-	border-color: #bfbfbf;
+	border-color: #e6e6e6;
 	width: 100%;
 	list-style-type: none;
 	margin: 0;
